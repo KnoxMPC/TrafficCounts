@@ -1,0 +1,75 @@
+html, body {
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+margin:0;
+font-family: "Open Sans";
+}
+#leftPane {
+width:20%;
+margin:0;
+border:none;
+}
+#map {
+padding:0;
+}
+.nav {
+padding: 5px 10px;
+background: #4479BA;
+color: #FFF;
+border-radius: 5px;
+border: solid 1px #20538D;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.arcgisSearch .searchIcon {
+color: black;
+font-size: 20px;
+}
+
+#search {
+display: block;
+position: absolute;
+top: 20px;
+left: 74px;
+}
+
+#HomeButton {
+position: absolute;
+top: 95px;
+left: 20px;
+}
+
+
+
+
+.col4-3{padding:0 !important;}
+.dijitContentPane{overflow-x:hidden !important;overflow-y:hidden !important;}
+.arcgis-search .search-btn{height:34px !important;padding:9px 12px !important;}
+#basemapGalleryContainer{position:absolute; right:20px; top:10px; z-Index:999;z-index:99999 !important;}
+#dl-csv{margin:5px 10px 10px 10px;display:none;float:left;}
+#HomeButton{z-index:99;top:135px !important;}
+#mainWindow{width:100%;font-family: "Open Sans";}
+#map_zoom_slider{top:60px !important;}
+#search{position:absolute; left:20px; top:10px;z-index:9999999 !important;}
+#visualization_div{height:300px;display:none;}
+#visualization_div div,#visualization_div rect,#visualization_div svg,#visualization_div g{overflow:visible;}
+#wrap-basemapGallery{width:380px; height:280px; overflow:auto;}
+
+@media (max-width:670px){
+#basemapGalleryContainer,#map_zoom_slider{top:70px !important;}
+#basemapGalleryContainer{display:none;left:60px !important;right:auto !important;}
+#dl-csv{display:none !important;width:95%;margin:0 2.5% 7px}
+#downloadButton{width:100%;margin:0 auto;}
+#HomeButton{top:145px !important;}
+#map_zoom_slider{right:auto !important;}
+#search,#HomeButton,#map_zoom_slider{left:15px !important}
+#search{top:20px !important;}
+}
+

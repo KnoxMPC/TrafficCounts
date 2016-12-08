@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/blank.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Knoxville Regional Transportation Planning Organization</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans:700,400' rel='stylesheet' type='text/css'>
+<link href="styles/default.css" type="text/css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="scripts/doubletaptogo.js"></script>
+<script src="scripts/swapr.js" type="text/javascript"></script>
+<script language="javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+theImages[0] = '../images/banners/01.jpg'
+theImages[1] = '../images/banners/02.jpg'
+theImages[2] = '../images/banners/03.jpg'
+theImages[3] = '../images/banners/04.jpg'
+theImages[4] = '../images/banners/05.jpg'
+theImages[5] = '../images/banners/06.jpg'
+theImages[6] = '../images/banners/07.jpg'
+theImages[7] = '../images/banners/08.jpg'
+// do not edit anything below this line
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+document.write('<img src="'+theImages[whichImage]+'">');
+}
+//  End -->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+
+</style>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24231578-1']);
+  _gaq.push(['_setDomainName', '.knoxtrans.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 
+
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' 
+
+: 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; 
+
+s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  <!-- disable compatability mode per https://geonet.esri.com/thread/106055 -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+<link rel="stylesheet" href="http://js.arcgis.com/3.14/dijit/themes/claro/claro.css" />
+<link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>    
+<link rel="stylesheet" href="scripts/mapCode/mapCode.css">
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script> <!-- Google Charts-->
+<script src="http://js.arcgis.com/3.14/"></script>
+<script src="scripts/mapCode/mapCode.js"></script>
+
+
+<!-- InstanceEndEditable -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+var totalCount = 8;
+function ChangeIt()
+{
+var num = Math.ceil( Math.random() * totalCount );
+
+var elem = document.getElementById("banner");
+elem.style.backgroundImage = "url('"+num+".jpg')";
+document.getElementById("banner").style.backgroundImage = "url(" + num + ")";
+
+
+}
+</script>
+
+
+
+
+
+
+<!-- InstanceParam name="body-onresize" type="text" value="windowResized()" -->
+<!-- InstanceParam name="body-class" type="text" value="claro" -->
+</head>
+
+<body onload="prepareImageSwap(document.body);" onresize="windowResized()" class="claro">
+
+<div id="header-wrap" style="width:100%;background-color:#039600;">
+	<div id="header" style="width:100%;text-align:center;">
+	  <div>
+		<div id="banner">
+			<a href="index.htm"><img id="header-logo"src="images/TPOlogo.jpg" alt="" width="165" height="100" style="border:10px solid #039600;display:inline-block;float:left;" /></a>
+		  <p>&nbsp;</p>
+		</div>
+	</div>
+  </div>
+</div>
+
+    <div id="side-nav">
+            <div id="switch">
+            <a id="show" href="#side-nav">&laquo;</a>
+            <a id="hide" href="#hide-nav">&raquo;</a>
+        </div>
+        <div id="nav-primary-static">
+            <ul>
+                <li><a href="programs.htm">Programs</a>   
+                    <ul>         
+                        <li><a href="recovery_act.htm">American Recovery &amp; Reinvestment Act 2009</a></li>
+                        <li><a href="cmaq.htm">CMAQ</a></li>
+                        <li><a href="atci.htm">Knoxville Regional Accessible Transportation Coalition</a></li>
+                        <li><a href="#">Knoxville Regional Bicycle Program</a>
+                            <ul>
+                                <li><a href="http://www.ibikeknx.com/">Bicycle Program</a></li> 
+                                <li><a href="http://www.ibikeknx.com/bikeplans">Knoxville Regional Bicycle Plan</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="saferoutes.htm">Safe Routes to Schools</a></li> 
+                        <li><a href="http://smarttrips.knoxtrans.org" target="_blank">Smart Trips</a></li>
+                    </ul>
+                </li>
+                <li><a href="lrtp.htm">Plans</a>
+                    <ul>
+                        <li><a href="airqual.htm">Air Quality</a></li>
+                        <li><a href="complete_streets/index.htm">Complete Streets Study</a></li>
+                        <li><a href="katplans.htm" target="_blank">KAT Plans</a></li>
+                        <li><a href="freight.htm">Knoxville Regional Freight</a></li> 
+                        <li><a href="freight.htm">Movement Plan</a></li>          
+                        <li><a href="rtcs.htm">Knoxville Regional Transit Corridor Study</a></li>
+                        <li><a href="mobilityplan.htm">Long Range Regional Mobility Plan</a></li>
+                        <li><a href="titlevi.htm">Title VI Plan</a></li>
+                        <li><a href="tip.htm">Transportation Improvement Program</a></li>
+                        <li><a href="greenway.htm">Greenway Planning</a></li> 
+                        <li><a href="">Other Plans and Reports</a>
+                            <ul>
+                                <li><a href="http://www.knoxtrans.org/plans/mobilityplan/cndetern.pdf">Conformity Determination Report</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/GSMB_corridor_mgmt_plan.pdf">Great Smoky Mountains Byway Corridor Management Plan</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/travsur2008.pdf">Household Travel Survey Results</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/HSTCP.pdf">Human Services Transportation</a></li> 
+                                <li><a href="http://www.knoxtrans.org/plans/HSTCP.pdf">Coordination Plan</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/OR_BikePed_2011.pdf">Oak Ridge Bicycle and Pedestrian Plan</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/outreach2012.pdf">The Outreach Plan</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/Road_Mngmt_Guide_GSM_Byway.pdf">Roadway Management Guidelines and Considerations</a></li>
+                                <li><a href="http://www.knoxtrans.org/plans/Road_Mngmt_Guide_GSM_Byway.pdf">for the Great Smoky Mountains Scenic Byway</a></li> 
+                                <li><a href="unifplan.htm">Transportation Planning Work Program</a></li> 
+                                <li><a href="http://www.knoxtrans.org/plans/Hwy321_sept2010.pdf">US Highway 321 Corridor Study</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="maplist.htm">Maps</a></li>
+                <li><a href="transportation-choices.htm">Transportation Choices</a>
+                    <ul>
+                        <li><a href="transportation-choices.htm#ehtra">East Tennessee Human Resources Agency</a></li>
+                        <li><a href="transportation-choices.htm#gatlinburgtrolley">Gatlinburg Trolley System</a></li>
+                        <li><a href="transportation-choices.htm#kat">Knoxville Area Transit (KAT)</a></li>
+                        <li><a href="transportation-choices.htm#cac">Knox County Transit (CAC)</a></li>
+                        <li><a href="transportation-choices.htm#oakridge">Oak Ridge Transit System</a></li>
+                        <li><a href="transportation-choices.htm#pffun">Pigeon Forge and Sevierville Funtime Trolley</a></li>
+                        <li><a href="http://smarttrips.knoxtrans.org" target="_blank">Smart Trips</a></li>
+                        <li><a href="transportation-choices.htm#vans">Tennessee Vans</a></li>
+                        <li><a href="resource.htm#greenways">Greenway Information</a></li> 
+                    </ul>
+                </li>
+                <li><a href="traffic.htm">Roadway Information</a>
+                    <ul>
+                        <li><a href="alert.htm">Traffic Alerts</a></li>
+                        <li><a href="projects.htm">Annual Listing of Obligated Projects</a></li>
+                        <li><a href="http://www.knoxtrans.org/roadway/status.pdf">TDOT Status Report</a></li>
+                        <li><a href="service.htm">Road Service Requests</a></li>
+                        <li><a href="traffic-counts.htm" target="_blank">Traffic Counts</a></li>
+                    </ul>
+                </li>
+                <li><a href="meeting.htm">Meetings and Press Releases</a>
+                    <ul>
+                      <li><a href="calendar.htm">Public Meeting Calendar</a></li>
+                        <li><a href="schedule.htm">Meeting Schedule</a></li>
+                        <li><a href="">Meeting Agendas</a>
+                            <ul>
+                                <li><a href="execagen.htm">TPO Executive Board</a></li>
+                                <li><a href="techagen.htm">TPO Technical Committee</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Meeting Minutes</a>
+                            <ul>
+                                <li><a href="execmin.htm">TPO Executive Board</a></li>
+                                <li><a href="techmin.htm">TPO Technical Committee</a></li>
+                            </ul>
+                        </li>
+                      <li class="nodisplay"><a href="tponews/index.htm">TPO Newsletter</a></li>
+                        <li><a href="pressrel.htm">Press Releases</a></li>
+                    </ul>
+                </li> 
+                <li class="last"><a href="related-sites.htm">Related Sites </a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="content-alert">
+
+
+
+
+<div id="mainWindow" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline',gutters:false">
+
+    <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+        <div id="HomeButton"></div>  
+        <div id="search"></div>
+        <div id = "basemapGalleryContainer">
+            
+            <div data-dojo-type="dijit/TitlePane" data-dojo-props="title:'Switch Basemap', closable:false, open:false">
+           
+              <div id="wrap-basemapGallery" data-dojo-type="dijit/layout/ContentPane">
+                <div id="basemapGallery"></div>
+                
+              </div>
+            </div>
+        </div>
+    </div> 
+</div> 
+
+
+<div id="visualization_div" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'"></div> 
+
+
+    	<div class="wrap"><div id="dl-csv" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="gutters:false" region="bottom">
+			<button id="downloadButton" class="trafficcounts" type="button" onclick="downloadCSV()" >Download CSV </button>
+     	</div>
+<h3 id="instructions" style="text-align:center;padding:10px;border:1px solid #fafafa">Click on a traffic count station above - <img src="images/tc-tdot.gif" width="15" height="15" alt=""/> (TDOT) or <img src="images/tc-tpo.gif" width="15" height="15" alt=""/> (TPO) - to view a chart with the historic traffic counts </h3>
+</div>
+
+<div id="visualization_div" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'" style="overflow:hidden;"></div>
+<div class="block">
+<div class="col75 fr">
+<div class="col50 fl">
+    <h1>Knoxville Region Traffic Count Program</h1>
+    <p>The TPO conducts traffic counts at over 300 locations in Knox and Blount Counties. These annual counts supplement those collected by the Tennessee Department of Transportation at several thousand other locations across the 10-county region.</p>
+    <h2>About the Counts</h2>
+    <p>The traffic count data are given in the standard  &quot;Average Daily Traffic&quot; format, which represents the volume of  traffic, in both directions, at a particular location on an average day during  that particular year. The average traffic is computed by taking the raw traffic  count data that is collected usually over a 24-hour period and then adjusting  it by factors to account for daily and seasonal variations.</p>
+    <ul class="links-list">
+      <li><a href="http://www.arcgis.com/home/item.html?id=1565c2e6f52b4ef0a8f5a7212029506f">Explore  and download GIS data (free account required) from ArcGIS.com</a></li>
+      </ul>
+    <h2>Need More?</h2>
+    <p>More detailed information, including the directional,  hourly, and 15-minute summaries of selected counts, is available by request.</p>
+    <h3> Tarren Barrett</h3>
+    <p> Transportation Engineer<br>
+      Metropolitan Planning Commission<br>
+      400 Main Street, Suite 403<br>
+      Knoxville, TN 37902<br>
+  <strong>Phone</strong>: (865) 215-2500<br>
+  <a href="mailto:tarren.barrett@knoxtrans.org">tarren.barrett@knoxtrans.org</a></p>
+</div>
+<div class="col50 fr">
+    <div class="wrap"><h2>Traffic Count Reports</h2>
+<p>For Knox and Blount County, printable, alphabetical listings  showing average daily traffic are available. The reports show a four-year  history at each count station.</p>
+<div class="col50">
+  
+    
+      <ul class="links-list mobilehide">
+        <li class="parent"><strong>Blount County</strong>
+          <ul>
+            <li class="null">2014</li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCounty_thru_2013.pdf">2013</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCounty_thru_2012.pdf">2012</a></li>
+          </ul>
+        </li>
+        </ul>
+    </div>
+<div class="col50">
+  
+    
+      <ul class="links-list mobilehide">
+        <li class="parent"><strong>Knox County</strong>
+          <ul>
+            <li class="null">2014</li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCounty_thru_2013.pdf">2013</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCounty_thru_2012.pdf">2012</a></li>
+          </ul>
+        </li>
+        </ul>
+</div></div>
+
+<div class="wrap">
+  <h2>Traffic Count Maps</h2>
+  <p>PDF files showing MPC and TDOT counts at stations across Knox and Blount Counties are available for 2007-2014.&nbsp;Maps are 36&rdquo; tall by 48&rdquo; wide. </p>
+  <div class="col50">
+    <ul class="links-list mobilehide">
+      <li class="parent"><strong>Blount County</strong>
+        <ul>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2014.pdf">2014</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2013.pdf">2013</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2012.pdf">2012</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2011.pdf">2011</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2010.pdf">2010</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2008-2009.pdf">2008-2009</a></li>
+          <li><a href="http://www.knoxtrans.org/roadway/tc_maps/BlountCountyMap_2007.pdf">2007</a></li>
+        </ul>
+      </li>
+      </ul>
+    </div>
+  <div class="col50">
+    <ul class="links-list mobilehide">
+      <li class="parent"><strong>Knox County</strong>
+        <ul>
+          <ul>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2014.pdf">2014</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2013.pdf">2013</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2012.pdf">2012</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2011.pdf">2011</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2010.pdf">2010</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2008-2009.pdf">2008-2009</a></li>
+            <li><a href="http://www.knoxtrans.org/roadway/tc_maps/KnoxCountyMap_2007.pdf">2007</a></li>
+          </ul>
+          </ul>
+      </li>
+      </ul>
+  </div>
+  <p><em><strong>Note</strong>: With the availability of regional traffic counts via a  web map, the traffic count map product has been discontinued.</em></p>
+</div>
+  </div>
+</div>
+  
+
+<div class="col25 fr">
+  <h2>Other Traffic Counts Data</h2>
+  <div class="quicklinks2"> <a href="http://www.kgis.org/KGISMaps/map.htm?map=trafficCounts&box=2476057:525589:2673397:683164">TPO  Traffic Counts on KGIS</a>
+    <p> Explore TPO and TDOT traffic counts alongside detailed parcel, zoning, aerial  photography and other data about Knox County.</p>
+<a href="http://www.ibikeknx.com/What-We-Do/Traffic-Counts">Knoxville  Region Bicycle and Pedestrian Counts</a>
+    <p> The Knoxville Regional Bicycle Program at the TPO collects of bicycles and  pedestrians at several key locations</p>
+<a href="https://www.tdot.tn.gov/APPLICATIONS/traffichistory">TDOT  Traffic History</a>
+    <p> Explore TDOT traffic counts across the State of Tennessee and download data in  several formats</p>
+  </div>
+  <a href="mailto:tarren.barrett@knoxtrans.org"></a>
+</div>
+</div>
+<!-- InstanceEndEditable --></div>	
+
+    <div id="footer"></div>
+<!--MOBILE ROLLOVER MENU-->
+<!-- InstanceBeginEditable name="final script declarations" -->
+
+<!-- InstanceEndEditable -->
+
+<div id="divID"></div>
+<script type="text/javascript">
+    var imgCount = 8;
+        var dir = '/images/banners/';
+        var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+        var images = new Array
+                images[1] = "01.jpg",
+                images[2] = "02.jpg",
+                images[3] = "03.jpg",
+                images[4] = "04.jpg",
+                images[5] = "05.jpg",
+                images[6] = "06.jpg",
+                images[7] = "07.jpg",
+                images[8] = "08.jpg",
+        document.getElementById("banner").style.backgroundImage = "url(" + dir + images[randomCount] + ")"; 
+   </script>
+</body>
+<!-- InstanceEnd --></html>
